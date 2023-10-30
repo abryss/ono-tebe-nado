@@ -268,7 +268,7 @@ main {
 .about {
   display: grid;
   grid-template-columns: 430px auto;
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
   column-gap: 25px;
   padding: 0px 50px;
   background-color: #ffffff;
