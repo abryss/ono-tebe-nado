@@ -74,6 +74,10 @@ header {
 }
 
 main {
+  background-color: white;
+}
+
+.cover {
   margin: auto;
   background-image: url(../images/cover.jpg);
   background-size: cover;
@@ -87,14 +91,14 @@ main {
   z-index: -1;  
 }
 
-.main__layout {
+.cover__layout {
   display: flex;
   flex-direction: column;
   padding: 164px 50px 78px 50px;
   gap: 3px;  
 }
 
-.main__title {
+.cover__title {
   display: block;  
   font-family: Raleway, sans-serif;
   font-weight: bold;
@@ -125,7 +129,7 @@ main {
   margin-left: auto;
 }
 
-.main__description {
+.cover__description {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -133,7 +137,7 @@ main {
   padding: 47px 50px 50px;
 }
 
-.main__description-text {
+.cover__description-text {
   display: block; 
   width: fit-content;
   font-family: Raleway, sans-serif;
@@ -170,7 +174,7 @@ main {
   color: rgb(0, 0, 0);
 }
 
-lots {
+.lots {
   display:flex;
   flex-direction: column;
   width: 100%;
@@ -262,7 +266,7 @@ lots {
   margin: 5px 40px;
 }
 
-about {
+.about {
   display: grid;
   grid-template-columns: 430px auto;
   grid-template-rows: repeat(2, 1fr);

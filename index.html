@@ -2,13 +2,13 @@
 <html lang="ru">
 
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-    <link rel="stylesheet" href="./fonts/fonts.css" />
-    <link rel="stylesheet" href="./styles/global.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/style.css">
   </head>
 
   <body>
@@ -37,99 +37,103 @@
 
     <main>
 
-      <div class="overlay">
-        <div class="main__layout">
-          <h1 class="main__title aligned-text">О<span class="letter-spacing-extended">Н</span><span class="no-letter-spacing">О</span></h1>
-          <h1 class="main__title aligned-text_center">ТЕ<span class="letter-spacing-extended">Б</span>Е</h1>
-          <h1 class="main__title aligned-text_right"><span class="letter-spacing-extended">Н</span>АД<span class="no-letter-spacing">О</span></h1>                    
+      <section class="cover">
+
+        <div class="overlay">
+          <div class="cover__layout">
+            <h1 class="cover__title aligned-text">О<span class="letter-spacing-extended">Н</span><span class="no-letter-spacing">О</span></h1>
+            <h1 class="cover__title aligned-text_center">ТЕ<span class="letter-spacing-extended">Б</span>Е</h1>
+            <h1 class="cover__title aligned-text_right"><span class="letter-spacing-extended">Н</span>АД<span class="no-letter-spacing">О</span></h1>                    
+          </div>
+
+          <div class="cover__description">
+            <div class="cover__description-text">Аукцион&nbsp;&nbsp;&nbsp;&nbsp;вещей,&nbsp;&nbsp;&nbsp;&nbsp;в&nbsp;&nbsp;&nbsp;&nbsp;которые&nbsp;&nbsp;&nbsp;&nbsp;никто&nbsp;&nbsp;&nbsp;&nbsp;не&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;верил</div>
+            <a class="button__link" href="practicum.yandex.ru"><div class="bet_button">Сделать ставку</div></a>
+          </div>        
         </div>
 
-        <div class="main__description">
-          <div class="main__description-text">Аукцион&nbsp;&nbsp;&nbsp;&nbsp;вещей,&nbsp;&nbsp;&nbsp;&nbsp;в&nbsp;&nbsp;&nbsp;&nbsp;которые&nbsp;&nbsp;&nbsp;&nbsp;никто&nbsp;&nbsp;&nbsp;&nbsp;не&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;верил</div>
-          <a class="button__link" href="practicum.yandex.ru"><div class="bet_button">Сделать ставку</div></a>
-        </div>        
-      </div>
+      </section>
+
+      <section class="lots">
+        <h2 class="lots__heading">Лоты</h2>
+  
+        <div class="lots__card-list">
+          <a class="card-link" href="https://www.kinopoisk.ru/name/23362/" target="_blank">
+            <div class="lots__card-list-item">
+              <div class="card_type_film">
+                <div class="overlay">
+                  <div class="card">
+                    <h3 class="card__title">Фильм режиссёра, который  бросил киношколу</h3>
+                    <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, 
+                      если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
+                  </div>                
+                </div>
+              </div>
+            </div>
+          </a>
+  
+          <a class="card-link" href="https://www.litres.ru/book/dzheyms-dzhoys-22409007/uliss-51762468/" target="_blank">
+            <div class="lots__card-list-item">
+              <div class="card_type_book">
+                <div class="overlay">
+                  <div class="card">
+                    <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
+                    <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами 
+                      на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, 
+                      начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили 
+                      на «Улисса» Джеймса Джойса?</p>
+                  </div>                
+                </div>
+              </div>
+            </div>
+          </a>
+  
+          <a class="card-link" href="https://www.wassilykandinsky.ru/" target="_blank">
+            <div class="lots__card-list-item">
+              <div class="card_type_picture">
+                <div class="overlay">
+                  <div class="card">
+                    <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
+                    <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на 
+                      инфузорию-туфельку. Никаких полей, лесов, котиков… Сколько бы вы на такое поставили, если бы не знали, 
+                      что это — одна из революционных работ Кандинского?</p>
+                  </div>                
+                </div>
+              </div>
+            </div>
+          </a>
+        
+        </div>
+        <a class="card-link" href="https://practicum.yandex.ru/" target="blank"><h4 class="lots__look-more-link">посмотреть больше</h4></a>    
+  
+      </section>
+  
+      <section class="about">
+        <div class="about__column">
+          <div class="about__logo">
+            <img src="./images/logo-white.svg" alt="логотип Оно Тебе Надо">
+          </div>
+        </div>
+             
+        <div class="about__column">
+          <h2 class="about__heading">Об аукционе</h2>
+        </div>
+  
+        <div class="about__column"></div>
+  
+        <div class="about__column">
+          <p class="about__text">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. 
+          Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, 
+          которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
+          <p class="about__text">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. 
+            Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту или сложность, 
+            сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. 
+            И сейчас эти лоты стали культовыми.</p>
+        </div>
+        
+      </section>
 
     </main>
-
-    <lots id="link_lots">
-      <h2 class="lots__heading">Лоты</h2>
-
-      <div class="lots__card-list">
-        <a class="card-link" href="https://www.kinopoisk.ru/name/23362/" target="_blank">
-          <div class="lots__card-list-item">
-            <div class="card_type_film">
-              <div class="overlay">
-                <div class="card">
-                  <h3 class="card__title">Фильм режиссёра, который  бросил киношколу</h3>
-                  <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, 
-                    если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
-                </div>                
-              </div>
-            </div>
-          </div>
-        </a>
-
-        <a class="card-link" href="https://www.litres.ru/book/dzheyms-dzhoys-22409007/uliss-51762468/" target="_blank">
-          <div class="lots__card-list-item">
-            <div class="card_type_book">
-              <div class="overlay">
-                <div class="card">
-                  <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
-                  <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами 
-                    на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, 
-                    начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили 
-                    на «Улисса» Джеймса Джойса?</p>
-                </div>                
-              </div>
-            </div>
-          </div>
-        </a>
-
-        <a class="card-link" href="https://www.wassilykandinsky.ru/" target="_blank">
-          <div class="lots__card-list-item">
-            <div class="card_type_picture">
-              <div class="overlay">
-                <div class="card">
-                  <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
-                  <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на 
-                    инфузорию-туфельку. Никаких полей, лесов, котиков… Сколько бы вы на такое поставили, если бы не знали, 
-                    что это — одна из революционных работ Кандинского?</p>
-                </div>                
-              </div>
-            </div>
-          </div>
-        </a>
-      
-      </div>
-      <a class="card-link" href="https://practicum.yandex.ru/" target="blank"><h4 class="lots__look-more-link">посмотреть больше</h4></a>    
-
-    </lots>
-
-    <about id="link_about">
-      <div class="about__column">
-        <div class="about__logo">
-          <img src="./images/logo-white.svg" alt="логотип Оно Тебе Надо">
-        </div>
-      </div>
-           
-      <div class="about__column">
-        <h2 class="about__heading">Об аукционе</h2>
-      </div>
-
-      <div class="about__column"></div>
-
-      <div class="about__column">
-        <p class="about__text">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. 
-        Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, 
-        которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
-        <p class="about__text">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. 
-          Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту или сложность, 
-          сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. 
-          И сейчас эти лоты стали культовыми.</p>
-      </div>
-      
-    </about>
 
     <footer>
       <div class="address">
