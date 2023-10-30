@@ -270,7 +270,6 @@ main {
   grid-template-columns: 430px auto;
   grid-template-rows: repeat(2, 1fr);
   column-gap: 25px;
-  grid-template-rows: repeat(1, 1fr);
   padding: 0px 50px;
   background-color: #ffffff;
   align-items: center;
